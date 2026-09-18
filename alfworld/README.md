@@ -44,7 +44,7 @@ export ALFWORLD_DATA=~/.cache/alfworld            # output of `alfworld-download
 ./scripts/start_sampler.sh 0 8100 ~/models/Qwen3-4B
 
 NONNEG=1 TAG=ours ./alfworld/run.sh anchor_cf 0 8100     # measured credit
-            TAG=grpo ./alfworld/run.sh grpo      0 8100  # baseline
+            TAG=grpo ./alfworld/run.sh grpo      0 8100  # no measurement
 ```
 
 `--hard_types` (set by `run.sh`) restricts training to the four task types that

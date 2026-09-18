@@ -31,7 +31,7 @@ collapsed.
 
 ```
 A(i,t) = A_E(i) + omega * step(i,t) + lambda * regret(i,t)
-omega  = 0.5      lambda = 4
+omega  = 0.5      lambda = 1
 gate   : if A_E(i) > 0 then step(i,t) <- max(step(i,t), 0)
 ```
 

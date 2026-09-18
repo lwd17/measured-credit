@@ -3,10 +3,10 @@
 Per-turn credit for multi-turn agents, obtained by **re-running the environment**
 instead of estimating it from the observed return.
 
-A trajectory ends with a single reward. GRPO spreads that reward over every turn
-of the trajectory. This repository does something else: it asks the environment a
-counterfactual question about each turn and uses the measured answer as the
-per-turn signal.
+A trajectory ends with a single reward, and the usual group-relative update
+spreads that one reward over every turn of the trajectory. This repository does
+something else: it asks the environment a counterfactual question about each turn
+and uses the measured answer as the per-turn signal.
 
 Two measurement operators, one for each kind of question:
 
@@ -22,9 +22,10 @@ A(i,t) = A_E(i) + omega * step(i,t)     additive form
 A(i,t) = A_E(i) * q(i,t), mean(q) = 1   mass-preserving form
 ```
 
-`A_E` is the group-standardised episode advantage — exactly GRPO's. Setting
-`omega = 0` (additive) or `alpha = 1` (mass-preserving) recovers GRPO bit for
-bit; `tests/test_alf_arms.py` asserts it.
+`A_E` is the group-standardised episode advantage. Setting `omega = 0`
+(additive) or `alpha = 1` (mass-preserving) removes the measured term entirely
+and recovers the plain group-relative update bit for bit; `tests/test_alf_arms.py`
+asserts it.
 
 Three environments are supported, each with the operator that is defined there:
 
@@ -32,11 +33,11 @@ Three environments are supported, each with the operator that is defined there:
 |---|---|---|
 | ALFWorld | ablation: drop one action, replay the episode | `--arm anchor_cf --nonneg_winners` |
 | WebShop | ablation on "buy now" value + substitution among the items on the result page | `--arm anchor_cvmax` |
-| Multi-hop QA (Search-R1 data) | substitution among sibling queries issued from the same evidence state | `--arm anchor_cf --nonneg_winners --regret_lambda 4` |
+| Multi-hop QA (Search-R1 data) | substitution among sibling queries issued from the same evidence state | `--arm anchor_cf --nonneg_winners --regret_lambda 1` |
 
-The baseline shipped for comparison is GRPO, run through the same loop, the same
-optimiser and the same rollout path; the arm selects a vector of per-turn
-advantages and nothing else.
+Every arm runs through the same loop, the same optimiser and the same rollout
+path; `--arm` selects a vector of per-turn advantages and nothing else, so any
+per-turn credit rule can be dropped in and compared on equal footing.
 
 ## Install
 
@@ -169,14 +170,14 @@ python multihop/train.py --arm anchor_cf --env wiki --nonneg_winners \
   --steps 120 --prompts_per_step 8 --group 8 --max_turns 4 --top_k 3 \
   --reward em --measure f1 --n_train_tasks 4000 \
   --lr 3e-5 --omega 0.5 --gamma 0.95 \
-  --answer_credit mask --regret_lambda 4 --answer_regret --question_candidate \
+  --answer_credit mask --regret_lambda 1 --answer_regret --question_candidate \
   --dynamic_sampling --flat_extra_max 0 \
   --model_path ~/models/Qwen3-4B --base_url http://localhost:8100/v1 \
   --wiki_url http://127.0.0.1:8080 --out_dir runs/qa_ours_s1 --seed 1
 ```
 
-For the GRPO baseline, replace the arm and drop the measurement flags:
-`--arm grpo` with the same steps, group size, learning rate and seed.
+`--arm grpo` runs the same command without the measurement flags, keeping the
+steps, group size, learning rate and seed.
 
 ## Evaluating
 
@@ -224,7 +225,7 @@ ssc/credit/                    advantage assembly and the measurement operators
   grpo_patch.py                  the clipped policy-gradient loss
 ssc/env/                       environments and policies
 ssc/train/                     batching, one optimiser step, LoRA push to sampler
-tests/                         unit tests, including the GRPO-equivalence ones
+tests/                         unit tests, including the degeneracy checks
 ```
 
 ## Tests

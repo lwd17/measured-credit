@@ -6,7 +6,7 @@
 # Arms: grpo | anchor_cf   (add NONNEG=1 for the gated measured-credit recipe)
 #
 # Defaults are the recipe reported for this environment: half-weight step term
-# (omega 0.5), substitution regret as the dominant signal (lambda 4), the answer
+# (omega 0.5), substitution regret as the dominant signal (lambda 1), the answer
 # turn treated as unmeasurable so it keeps GRPO's credit, no annealing, and no
 # extra zero-variance groups in the batch.
 #
@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES="$GPU" PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
     --n_train_tasks "${N_TRAIN:-4000}" --n_eval_tasks "${N_EVAL:-200}" \
     --token_budget "${TOKEN_BUDGET:-16384}" \
     --seed "${SEED:-1}" --lr "${LR:-3e-5}" --max_grad_norm 1.0 \
-    --omega "${OMEGA:-0.5}" --regret_lambda "${REGRET_LAMBDA:-4}" \
+    --omega "${OMEGA:-0.5}" --regret_lambda "${REGRET_LAMBDA:-1}" \
     --answer_credit mask --answer_regret --question_candidate \
     --dynamic_sampling --dyn_max_factor 8 --flat_extra_max 0 \
     ${NONNEG:+--nonneg_winners} \
