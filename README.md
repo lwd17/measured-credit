@@ -1,4 +1,4 @@
-# Measured Credit
+# RMPO: Counterfactual Replay for Turn-Level Credit Assignment in LLM Agents
 
 Per-turn credit for multi-turn agents, obtained by **re-running the environment**
 instead of estimating it from the observed return.
