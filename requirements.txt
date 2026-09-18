@@ -1,0 +1,21 @@
+# Core training and inference.
+torch>=2.4
+transformers>=4.44
+peft>=0.12
+accelerate>=0.33
+safetensors
+vllm>=0.6
+openai>=1.40
+
+# Data.
+datasets>=2.20
+pandas>=2.0
+pyarrow>=15.0
+
+# Tests.
+pytest>=8.0
+
+# Environment extras, install the ones you need:
+#   ALFWorld        pip install "alfworld[full]" && alfworld-download -f
+#   WebShop         see https://github.com/princeton-nlp/WebShop
+#   Multi-hop QA    Search-R1 parquet files + a retrieval service, see README

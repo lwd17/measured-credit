@@ -1,0 +1,602 @@
+[
+ {
+  "task_id": "ws_train_3",
+  "session": 3,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_42",
+  "session": 42,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_81",
+  "session": 81,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_120",
+  "session": 120,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_159",
+  "session": 159,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_198",
+  "session": 198,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_237",
+  "session": 237,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_276",
+  "session": 276,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_315",
+  "session": 315,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_354",
+  "session": 354,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_393",
+  "session": 393,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_432",
+  "session": 432,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_471",
+  "session": 471,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_510",
+  "session": 510,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_549",
+  "session": 549,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_588",
+  "session": 588,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_627",
+  "session": 627,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_666",
+  "session": 666,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_705",
+  "session": 705,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_744",
+  "session": 744,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_783",
+  "session": 783,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_822",
+  "session": 822,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_861",
+  "session": 861,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_900",
+  "session": 900,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_939",
+  "session": 939,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_978",
+  "session": 978,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1017",
+  "session": 1017,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1056",
+  "session": 1056,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1095",
+  "session": 1095,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1134",
+  "session": 1134,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1173",
+  "session": 1173,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1212",
+  "session": 1212,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1251",
+  "session": 1251,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1290",
+  "session": 1290,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1329",
+  "session": 1329,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1368",
+  "session": 1368,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1407",
+  "session": 1407,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1446",
+  "session": 1446,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1485",
+  "session": 1485,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1524",
+  "session": 1524,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1563",
+  "session": 1563,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1602",
+  "session": 1602,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1641",
+  "session": 1641,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1680",
+  "session": 1680,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1719",
+  "session": 1719,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1758",
+  "session": 1758,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1797",
+  "session": 1797,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1836",
+  "session": 1836,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1875",
+  "session": 1875,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1914",
+  "session": 1914,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1953",
+  "session": 1953,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_1992",
+  "session": 1992,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2031",
+  "session": 2031,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2070",
+  "session": 2070,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2109",
+  "session": 2109,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2148",
+  "session": 2148,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2187",
+  "session": 2187,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2226",
+  "session": 2226,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2265",
+  "session": 2265,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2304",
+  "session": 2304,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2343",
+  "session": 2343,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2382",
+  "session": 2382,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2421",
+  "session": 2421,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2460",
+  "session": 2460,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2499",
+  "session": 2499,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2538",
+  "session": 2538,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2577",
+  "session": 2577,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2616",
+  "session": 2616,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2655",
+  "session": 2655,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2694",
+  "session": 2694,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2733",
+  "session": 2733,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2772",
+  "session": 2772,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2811",
+  "session": 2811,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2850",
+  "session": 2850,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2889",
+  "session": 2889,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2928",
+  "session": 2928,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_2967",
+  "session": 2967,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3006",
+  "session": 3006,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3045",
+  "session": 3045,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3084",
+  "session": 3084,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3123",
+  "session": 3123,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3162",
+  "session": 3162,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3201",
+  "session": 3201,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3240",
+  "session": 3240,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3279",
+  "session": 3279,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3318",
+  "session": 3318,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3357",
+  "session": 3357,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3396",
+  "session": 3396,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3435",
+  "session": 3435,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3474",
+  "session": 3474,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3513",
+  "session": 3513,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3552",
+  "session": 3552,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3591",
+  "session": 3591,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3630",
+  "session": 3630,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3669",
+  "session": 3669,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3708",
+  "session": 3708,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3747",
+  "session": 3747,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3786",
+  "session": 3786,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3825",
+  "session": 3825,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3864",
+  "session": 3864,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3903",
+  "session": 3903,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3942",
+  "session": 3942,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_3981",
+  "session": 3981,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4020",
+  "session": 4020,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4059",
+  "session": 4059,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4098",
+  "session": 4098,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4137",
+  "session": 4137,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4176",
+  "session": 4176,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4215",
+  "session": 4215,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4254",
+  "session": 4254,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4293",
+  "session": 4293,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4332",
+  "session": 4332,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4371",
+  "session": 4371,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4410",
+  "session": 4410,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4449",
+  "session": 4449,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4488",
+  "session": 4488,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4527",
+  "session": 4527,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4566",
+  "session": 4566,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4605",
+  "session": 4605,
+  "split": "train"
+ },
+ {
+  "task_id": "ws_train_4644",
+  "session": 4644,
+  "split": "train"
+ }
+]
